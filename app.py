@@ -48,4 +48,13 @@ if del_btn:
     loc = os.path.join("tempDir",uploadedfile.name)
     os.remove(loc)
 
-
+st.write("\n")
+st.write("\n")
+st.write("\n")
+st.write("\n")
+st.write("\n")
+st.write("\n")
+st.write("Contact the engineer behind this app")
+btn = st.button("Contact")
+if btn:
+    st.write("#### tuhinm2002@gmail.com")
