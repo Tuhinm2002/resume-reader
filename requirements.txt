@@ -1,0 +1,8 @@
+streamlit
+torch
+llama-index
+gradientai
+python-dotenv
+transformers
+sentencepiece
+pypdf
