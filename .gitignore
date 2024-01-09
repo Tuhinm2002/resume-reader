@@ -1,5 +1,4 @@
 .idea/
 storage1/
-.env
 .dockerignore
 Dockerfile
