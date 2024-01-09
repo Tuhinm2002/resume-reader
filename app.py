@@ -43,4 +43,9 @@ index = VectorStoreIndex.from_documents(doc,service_context=service_context)
 query_engine = index.as_query_engine()
 response = query_engine.query(inp)
 st.write(response.response)
+del_btn = st.button("Delete your data button")
+if del_btn:
+    loc = os.path.join("tempDir",uploadedfile.name)
+    os.remove(loc)
+
 
